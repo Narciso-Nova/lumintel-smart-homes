@@ -1,0 +1,21 @@
+
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
